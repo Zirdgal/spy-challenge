@@ -2,25 +2,38 @@
     background-color: black;
     color: white;
     margin: 0;
-}
-
-#square-container {
-    position: absolute;
     height: 100vh;
     width: 100vw;
-    display: flex;
-    /*justify-content: space-around;*/
-    align-items: center;
+    overflow: hidden;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .square {
     width: 5vw;
-    height: 5vh;
+    height: 7vh;
+    position: absolute;
 }
 #square1 {
-    margin-left: 25%;
+    margin-top: 30vh;
+    margin-left: 25vw;
 }
 #square2 {
-    margin-left: 50%;
+    margin-top: 30vh;
+    margin-left: 50vw;
+    visibility: hidden;
+}
+#square3 {
+    margin-top: 10vh;
+    margin-left: 38vw;
+    visibility: hidden;
+}
+#square4 {
+    margin-top: 69vh;
+    margin-left: 69vw;
+    visibility: hidden;
+}
+#square5 {
+    margin-top: 50vh;
+    margin-left: 90vw;
     visibility: hidden;
 }
